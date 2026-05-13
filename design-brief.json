@@ -1,0 +1,52 @@
+{
+  "colors": {
+    "primary": "#c87533",
+    "secondary": "#a0522d",
+    "accent": "#e8a04e",
+    "background": "#0d0d0d",
+    "surface": "#1a1714",
+    "text": "#e0dcd6",
+    "muted": "#7a7068"
+  },
+  "typography": {
+    "headingFont": "Syne",
+    "bodyFont": "Outfit",
+    "monoFont": "JetBrains Mono",
+    "scale": "spacious"
+  },
+  "spacing": "relaxed",
+  "borderRadius": "sm",
+  "shadows": "dramatic",
+  "mood": "Heavy industrial vault — steel girders, copper rivets, fortified security",
+  "motionStyle": "moderate",
+  "layoutStyle": "industrial-rows",
+  "designRules": [
+    "LAYOUT: Use horizontal full-width rows for unit displays (not cards). Heavy 4px copper dividers between sections. Monospace for all data/numbers. Diamond bullet points (◆) for list items. Everything uppercase in headings.",
+    "Industrial textures: use subtle noise overlays and rough gradients on surfaces",
+    "Copper/bronze accent creates warmth against cold dark steel backgrounds",
+    "Heavy bottom borders on cards simulate welded steel plate construction",
+    "Use monospace for unit numbers, dimensions, and pricing data",
+    "Oversized headlines with tight tracking feel stamped into metal",
+    "Unit pricing tables should feel like steel drawer labels — monospace dimensions, heavy bottom border, compact industrial layout",
+    "Reserve buttons must be the most prominent element — bold copper with high-contrast, like emergency shutoff controls",
+    "CONVERSION: Facility pages use Layout Option A (units-first) — compact facility info bar with name/address/hours in a single industrial row, then FULL unit table immediately below. Unit finder/search bar in hero. Every unit row has a Reserve button. On market pages, show top 3 available unit sizes per facility listing.",
+    "CONVERSION: Reserve/CTA buttons must be the single most visually prominent element on every page — larger than navigation links, higher contrast than body text, with hover state that increases visual weight. Use the primary color at full saturation. Every unit card and table row MUST have a Reserve button.",
+    "CONVERSION: Use badges to show real-time social proof and urgency — 'Most Popular' on the best-selling size, 'X Left!' in a warning color when availability is low, 'Available' in a success color for in-stock units. Price must be the largest text element in every unit card, displayed in the primary or accent color."
+  ],
+  "designPatterns": {
+    "card": "<div className=\"bg-surface border border-white/5 border-b-4 border-b-primary/40 rounded-sm p-7 shadow-xl shadow-black/30 hover:border-b-primary/70 transition-all\">",
+    "button": "<a className=\"bg-primary text-background font-bold px-8 py-3.5 rounded-sm text-base uppercase tracking-widest shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 transition-all\">",
+    "buttonSecondary": "<a className=\"border-2 border-primary/30 text-primary font-semibold px-8 py-3.5 rounded-sm uppercase tracking-widest hover:bg-primary/10 transition-all\">",
+    "heading": "<h2 className=\"font-heading text-5xl md:text-7xl font-extrabold text-text uppercase tracking-tight leading-[0.85]\">",
+    "subheading": "<p className=\"text-xl text-text-muted leading-relaxed max-w-2xl font-light\">",
+    "badge": "<span className=\"inline-flex items-center gap-1.5 bg-primary/10 border border-primary/20 rounded-sm px-4 py-1.5 text-sm font-mono text-primary uppercase tracking-wider\">",
+    "input": "<input className=\"w-full bg-background border-2 border-white/10 rounded-sm px-5 py-3.5 text-text placeholder:text-text-muted focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20 transition\" />",
+    "sectionBg": "bg-background",
+    "sectionAltBg": "bg-surface",
+    "sectionDarkBg": "bg-gradient-to-b from-surface to-background",
+    "navStyle": "bg-background/90 backdrop-blur-lg border-b-2 border-primary/20",
+    "footerStyle": "bg-surface border-t-2 border-primary/20",
+    "iconBox": "<div className=\"h-14 w-14 rounded-sm bg-primary/10 border border-primary/20 flex items-center justify-center text-primary\">",
+    "divider": "<div className=\"h-0.5 bg-gradient-to-r from-primary/30 via-primary/10 to-transparent\">"
+  }
+}
